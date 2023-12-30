@@ -88,6 +88,11 @@ main {
     padding: 16px;
   }
 }
+@media screen and (min-width: 550px) {
+  main {
+    padding: 0;
+  }
+}
 main .general__container {
   max-width: 400px;
   width: 100%;
@@ -98,6 +103,7 @@ main .general__container {
   gap: 10px;
   border-radius: 25px;
   border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 13px 14px 0 -8px hsl(0, 0%, 7%);
 }
 @media screen and (max-width: 280px) {
   main .general__container {
